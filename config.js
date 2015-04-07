@@ -10,10 +10,10 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://my-ghost-blog.com',
+        url: 'http://blog.metadevfoundation.org',
         mail: {},
         database: {
-            client: 'sqlite3',
+            client: 'postgres',
             connection: {
                 filename: path.join(__dirname, '/content/data/ghost.db')
             },
@@ -22,7 +22,7 @@ config = {
 
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '127.0.0.1',
+            host: 'blog.demo.localflynn.com',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '2368'
         }
@@ -50,7 +50,7 @@ config = {
         // ```
 
         database: {
-            client: 'sqlite3',
+            client: 'postgres',
             connection: {
                 filename: path.join(__dirname, '/content/data/ghost-dev.db')
             },
@@ -58,7 +58,7 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '127.0.0.1',
+            host: 'blog.demo.localflynn.com',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '2368'
         },
