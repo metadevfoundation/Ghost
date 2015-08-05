@@ -112,3 +112,7 @@ New releases are announced on the [dev blog](http://dev.ghost.org/tag/releases/)
 # Copyright & License
 
 Copyright (c) 2013-2015 Ghost Foundation - Released under the [MIT license](LICENSE).
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/metadevfoundation/ghost/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
